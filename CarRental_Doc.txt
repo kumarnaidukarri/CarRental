@@ -3,6 +3,7 @@
 Technologies:
   Reactjs, Tailwindcss, Nodejs, Expressjs, Mongodb.  
   tools:  
+      Google Fonts - 'Outfit' font
       Imagekit.io - images, 
       Vercel for deployment. 
 
