@@ -10,7 +10,6 @@ Technologies:
 
 
 Features :-
-
 1) User dashboard
   login, search car, 
   my bookings,
@@ -22,4 +21,11 @@ Features :-
    add car, details, price, available status, description. 
    payment, accept booking.
    monthly revenue.
-  
+
+
+-----------------------
+
+App Structure:-
+Home Page 
+  - Navbar(Logo, menubar searchbar, login)
+  - Hero Section(heading, car image, pickuplocation pickdate return date, searchbar)
