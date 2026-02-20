@@ -1,0 +1,24 @@
+"Car Rental" fullstack project :-
+
+Technologies:
+  Reactjs, Tailwindcss, Nodejs, Expressjs, Mongodb.  
+  tools:  
+      Imagekit.io - images, 
+      Vercel for deployment. 
+
+
+
+Features :-
+
+1) User dashboard
+  login, search car, 
+  my bookings,
+  car details, pickup location details, date. 
+  owner approval.
+
+2) Owner dashboard  
+   Edit profile, bookings page, manage cars,
+   add car, details, price, available status, description. 
+   payment, accept booking.
+   monthly revenue.
+  
