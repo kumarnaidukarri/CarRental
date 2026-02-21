@@ -1,10 +1,20 @@
-import { assets } from "../assets/assets";
+import { useNavigate } from "react-router";
+
+// my components
+import { assets } from "../assets/assets.js";
 
 const CarCard = ({ car }) => {
-  const currency = import.meta.emv.VITE_CURRENCY;
+  const currency = import.meta.env.VITE_CURRENCY;
+  const navigate = useNavigate();
 
   return (
-    <div className="car-card  group rounded-xl overflow-hidden shadow-lg hover:-translate-y-1 transition-all duration-500 cursor-pointer">
+    <div
+      className="car-card  group rounded-xl overflow-hidden shadow-lg hover:-translate-y-1 transition-all duration-500 cursor-pointer"
+      onClick={() => {
+        navigate(`/car-details/${car._id}`); // navigate to path
+        scrollTo(0, 0);
+      }}
+    >
       <div className="relative h-48 overflow-hidden">
         <img
           src={car.image}

@@ -26,9 +26,11 @@ Features :-
 -----------------------
 
 App Structure:-
-Home Page 
+1)Home Page 
+Hero Section
   - Navbar(Logo, menubar searchbar, login)
   - Hero Section(heading, car image, pickuplocation pickdate return date, searchbar)
 
 Featued Vehicles Section 
- - Car(car type, each day money, car details)  
+ - Car(car type, each day money, car details)   
+   event listener click on 'car card' takes to 'car full details' page.
