@@ -44,3 +44,7 @@ Testimonial Section
 
 NewsLetter Section 
   - Newsletter component('PrebuiltUI' tailwindcss library component)  
+
+Footer Section 
+  - Footer component('PrebuiltUI' tailwindcss library component)  
+    *** note: Footer must be present in all Pages. but, not in 'Owner Dashboard Page'.
