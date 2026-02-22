@@ -48,3 +48,9 @@ NewsLetter Section
 Footer Section 
   - Footer component('PrebuiltUI' tailwindcss library component)  
     *** note: Footer must be present in all Pages. but, not in 'Owner Dashboard Page'.
+
+2) Car Details Page  ex:http://localhost:5173/car-details/67ff5bc069c03d4e45f30b77
+   - Car image
+   - Car description
+   - Car features
+   - Footer section
