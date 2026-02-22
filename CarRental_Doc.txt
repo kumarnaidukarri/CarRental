@@ -41,3 +41,6 @@ Banner Section
 Testimonial Section
   - custom heading
   - Testimonial component('PrebuiltUI' tailwindcss library component)  
+
+NewsLetter Section 
+  - Newsletter component('PrebuiltUI' tailwindcss library component)  
