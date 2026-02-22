@@ -41,10 +41,10 @@ const CarCard = ({ car }) => {
         <div className="flex justify-between items-start mb-2">
           <div>
             <h3 className="text-lg font-medium">
-              {car.brand} {car.model}
+              {car.brand} • {car.model}
             </h3>
             <p className="text-muted-foreground text-sm">
-              {car.category} . {car.year}
+              {car.category} • {car.year}
             </p>
           </div>
         </div>

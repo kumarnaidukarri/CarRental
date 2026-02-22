@@ -56,7 +56,7 @@ const CarDetails = () => {
                 {car.brand} {car.model}
               </h1>
               <p className="text-gray-500 text-lg">
-                {car.category} . {car.year}
+                {car.category} • {car.year}
               </p>
             </div>
 
