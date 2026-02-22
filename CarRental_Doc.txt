@@ -1,7 +1,7 @@
 "Car Rental" fullstack project :-
 
 Technologies:
-  Reactjs, Tailwindcss, Nodejs, Expressjs, Mongodb.  
+  Reactjs, Tailwindcss, "PrebuiltUI"(website gives tailwindcss components), Nodejs, Expressjs, Mongodb.  
   tools:  
       Google Fonts - 'Outfit' font
       Imagekit.io - images, 
@@ -37,3 +37,7 @@ Featured Vehicles Section
 
 Banner Section 
   - information, car photo
+
+Testimonial Section
+  - custom heading
+  - Testimonial component('PrebuiltUI' tailwindcss library component)  
