@@ -5,6 +5,7 @@ import { useNavigate, useParams } from "react-router";
 
 // my modules
 import { assets, dummyCarData } from "../assets/assets.js";
+import Loader from "../components/Loader.jsx";
 
 const CarDetails = () => {
   const { id } = useParams(); // hook to get the URL 'path parameters'.
@@ -115,7 +116,7 @@ const CarDetails = () => {
       </div>
     </div>
   ) : (
-    <p> Loading... </p>
+    <Loader />
   );
 };
 
