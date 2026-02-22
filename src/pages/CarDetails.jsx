@@ -13,6 +13,10 @@ const CarDetails = () => {
   const [car, setCar] = useState(null);
   const currency = import.meta.env.VITE_CURRENCY;
 
+  const handleSubmit = async (e) => {
+    e.preventDefault(); // prevents default behaviour
+  };
+
   useEffect(() => {
     /* car =   
       { _id:"67ff5bc069c03d4e45f30b77", owner:"67fe3467ed8a8fe17d0ba6e2", brand:"BMW", model:"X5", image:car_image1, year:2006,
@@ -113,7 +117,12 @@ const CarDetails = () => {
         </div>
 
         {/* Right: Booking Form */}
-        <form className="shadow-lg h-max sticky top-18 rounded-xl p-6 space-y-6 text-gray-500">
+        <form
+          onSubmit={() => {
+            handleSubmit();
+          }}
+          className="shadow-lg h-max sticky top-18 rounded-xl p-6 space-y-6 text-gray-500"
+        >
           <p className="flex items-center justify-between text-2xl text-gray-800 font-semibold">
             {currency}
             {car.pricePerDay}
