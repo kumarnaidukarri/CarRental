@@ -57,3 +57,8 @@ Footer Section
   rightside:
    - Booking Form
   Footer section
+
+3) Cars Page 
+  - title 
+  - search input to find Car by make/model/feautes
+  - all Cars Cards 
