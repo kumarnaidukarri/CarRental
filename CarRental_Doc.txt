@@ -68,3 +68,9 @@ Footer Section
   - title 
   - booking cards (car image + booking details + price) 
   Footer section
+
+5) Owner Dashboard Page 
+  - Dashboard tab component  
+  - Add Car tab component 
+  - Manage Cars tab component 
+  - Manage Bookings tab component 
