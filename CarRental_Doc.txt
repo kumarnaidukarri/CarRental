@@ -70,7 +70,7 @@ Footer Section
   Footer section
 
 5) Owner Dashboard Page 
-  - Dashboard tab component  
+  - Dashboard tab component - admin dashboard, recent bookings, monthly revenue 
   - Add Car tab component 
   - Manage Cars tab component 
-  - Manage Bookings tab component 
+  - Manage Bookings tab component
