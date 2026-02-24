@@ -72,7 +72,7 @@ const Dashboard = () => {
           <h1 className="text-lg font-medium">Recent Bookings</h1>
           <p className="text-gray-500">Latest customer bookings</p>
           {data.recentBookings.map((booking, index) => (
-            <div key={index} className="mt-4 flex items-center justify-center">
+            <div key={index} className="mt-4 flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <div className="hidden md:flex items-center justify-center w-12 h-12 rounded-full bg-primary/10">
                   <img
@@ -90,6 +90,7 @@ const Dashboard = () => {
                   </p>
                 </div>
               </div>
+
               <div className="flex items-center gap-2 font-medium">
                 <p className="text-sm text-gray-500">
                   {currency} {booking.price}
