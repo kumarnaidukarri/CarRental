@@ -72,5 +72,5 @@ Footer Section
 5) Owner Dashboard Page 
   - Dashboard tab component - admin dashboard, recent bookings, monthly revenue 
   - Add Car tab component - upload car picture, input boxes brand model year dailyprice category, transmission, fuel type, seating capacity, location, description. 
-  - Manage Cars tab component 
+  - Manage Cars tab component  - table(car img name, category, priceperday, status, actions)
   - Manage Bookings tab component
