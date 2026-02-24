@@ -74,3 +74,7 @@ Footer Section
   - Add Car tab component - upload car picture, input boxes brand model year dailyprice category, transmission, fuel type, seating capacity, location, description. 
   - Manage Cars tab component  - table(car img name, category, priceperday, status, actions)
   - Manage Bookings tab component  - table(car img name, date range, total price, payment, actions) 
+
+6) Login Page  
+  - Login Form or Signup Form 
+  - Button

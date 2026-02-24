@@ -15,12 +15,15 @@ import AddCar from "./pages/owner/AddCar.jsx";
 import ManageCars from "./pages/owner/ManageCars.jsx";
 import ManageBookings from "./pages/owner/ManageBookings.jsx";
 
+import Login from "./components/Login.jsx";
+
 const App = () => {
   const [showLogin, setShowLogin] = useState(false);
   const isOwnerPath = useLocation().pathname.startsWith("/owner"); // true or false
 
   return (
     <>
+      {showLogin && <Login setShowLogin={setShowLogin} />}
       {
         // show navbar in all pages. but, hide it only in 'owner' url path. '/owner'.
         !isOwnerPath && <Navbar setShowLogin={setShowLogin} />
